@@ -1,5 +1,4 @@
-# My Portfolio Website
-https://justinzhang.ca
+# Welcome to the source code of my Portfolio Website
 
 This project started out as pure HTML & CSS site in 2018. Since then, I've been able to start experimenting with React, Gatsby, and more!
 
