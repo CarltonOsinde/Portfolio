@@ -23,7 +23,7 @@ import ArticleHeader from "../../components/articles/ArticleHeader"
 import ComingSoon from "../../components/articles/ComingSoon"
 
 const USPORTS = () => {
-  var highlightColor = "#394F94"
+  var highlightColor = "#d1343e"
 
   return (
     <>
@@ -62,7 +62,7 @@ const USPORTS = () => {
         >
           <Image
             fluid
-            src="https://doixzan7hf4ti.cloudfront.net/hw7/LinkedIn+Banner-01.png"
+            src="https://d1ap993fctyiv.cloudfront.net/usports_coverphoto.jpg"
             className="p-5"
           />
         </ArticleHeader>
@@ -76,48 +76,51 @@ const USPORTS = () => {
         >
           <p>
           Over 4 months I worked with the team on the <strong>end to end 
-          development</strong> of an error-tracking feature for the Score Board. 
+          development of an error-tracking feature</strong> for the Score Board. 
           I had the pleasure of spliting my time with the Governance team to assist 
-          in partnership talks with Adidas and learned what goes into  market research
+          in <strong>partnership talks with Adidas</strong> and learned what goes into market research
           on successful NCAA National Championship trends that could be implemented into the 
-          2019 National Championship season. In addition I collaborated with senior engineers 
+          <strong> 2019 National Championship season.</strong> In addition I <strong>collaborated with senior engineers </strong> 
           to understand best practices for writing production code and test cases.
           </p>
 
+                <Row className = "mt-5">
+          <Col>
           <div
             className="conclusion-section p-2"
             style={{ borderRadius: "8px" }}
           >
             <Row className="text-center pt-3">
               <Col>
-                <h3 className="text-close">Numbers at a Glance</h3>
+                <h3 className="text-close">My Impact At A Glance</h3>
                 <p style={{ color: "#bfbfbf" }} className="sm">
-                  Errors in last Championship
+                  Error tracking feature
                 </p>
               </Col>
             </Row>
             <Row className="text-center pb-3">
               <Col>
-                <p className="font-weight-bold rg text-close">100+</p>
+                <p className="font-weight-bold rg text-close">Runtime Errors</p>
                 <p className="text-close sm">
-                  Code Efficiency <Badge variant="success">+35%</Badge>
+                 Reduction <Badge variant="info">-35%</Badge>   
                 </p>
               </Col>
               <Col>
-                <p className="font-weight-bold rg text-close">5000+</p>
-                <p className="text-close sm">Impacted Users</p>
+                <p className="font-weight-bold rg text-close">Active Users</p>
+                <p className="text-close sm">5000+</p>
               </Col>
               <Col>
-                <p className="font-weight-bold rg text-close">Outreach</p>
+                <p className="font-weight-bold rg text-close">Accuracy</p>
                 <p className="text-close sm">
-                  New Users <Badge variant="success">+9%</Badge>
+                  Increased by <Badge variant="success">+40%</Badge>
                 </p>
               </Col>
             </Row>
           </div>
+          </Col>
+        </Row>
         </Roles>
-
-        <ComingSoon />
+        
 
         <Footer />
       </Container>

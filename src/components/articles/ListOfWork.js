@@ -28,7 +28,7 @@ export const work = [
 
     span: 1,
   },
-  {
+  { 
     // CaseCom --> Chaqu.io
     url: "/w/chaqu",
     role: "Software Engineer",
