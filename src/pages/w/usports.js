@@ -120,8 +120,108 @@ const USPORTS = () => {
           </Col>
         </Row>
         </Roles>
-        
 
+                <Row>
+          <Container>
+            <Fade bottom duration={666} distance="50px">
+              <Row className="mt-5">
+                <Col md={4}>
+                  <h2 className="font-weight-bold solution-color">Capstone Deliverable</h2>
+                </Col>
+                <Col md={8}>
+                  <p className="font-weight-medium lg">
+                    Develop a data pipeline for the Capital Market's team to use when conducting 
+                    Securities analysis. 
+                  </p>
+                  <p>
+                    I had four-months to deliver a fully function data pipeline that would be
+                    realised to production for the Capital Market's team to leverage on for 
+                    analysis of securities.
+                  </p>
+                  <p>
+                    Over the course 4-months I would have the opportuity to solidfy my understanding
+                    of software languages such as Python, Big Data transformation platforms such as 
+                    Alteryx and Python scripting. My goal was to {" "}
+                    <strong>
+                    Develop a data pipeline that extracts data from mulitple databases and applies
+                    custom formulas to select columns and generates a file for the trade team.
+                    </strong>
+                  </p>
+                </Col>
+              </Row>
+            </Fade>
+
+
+
+            <Fade bottom duration={666} distance="50px">
+              <Row className="mt-5">
+                <Col md={4}>
+                  <h2 className="font-weight-bold solution-color">Technology</h2>
+                </Col>
+                <Col md={8}>
+                  <p>
+                    During this time I had to implement various solutions using the three technologys
+                    listed below. I had soc much fun gaining a deeper practical understanding of each the
+                    technology's mentioned below 
+                  </p>
+                </Col>
+              </Row>
+            </Fade>
+          </Container>
+        </Row>
+
+        <Row className="mt-5 pb-4">
+          <Container>
+            <Fade bottom duration={666} distance="50px">
+              <Row className="mt-5">
+                <Col md={4}>
+                  <h2 className="font-weight-bold solution-color">
+                    The Solution
+                  </h2>
+                </Col>
+                <Col md={8}>
+                  <p>
+                    I was able to successfully develope a data pipeline to extract up to<strong> 40,000 records
+                    of currency rate data and transform it into 30 columns </strong>with accurate formula application
+                     using Python-Pandas. In addition I was able to create a  script that saw a time savings 
+                     on documenting workflow automation. I leveraged on <strong>Object-Oriented programming principles</strong>
+                    to ensure the script applied to different team templates. 
+                  </p>
+                </Col>
+              </Row>
+            </Fade>
+          </Container>
+        </Row>
+        
+        <Row className="conclusion-section pt-5 pb-5 mt-5">
+          <Container>
+            <Fade bottom duration={666} distance="50px">
+              <Row className="">
+                <Col md={4}>
+                  <h2 className="font-weight-bold">Key Learnings</h2>
+                </Col>
+                <Col md={8}>
+  
+                  <p>
+                    Overall this was a great learning experience I learned how to 
+                    develop a pipeline, how to contribute during design and analysis 
+                    meetings. development and how to deliver technical presentations 
+                    to my team. Also, it was great to be part of such a large coorporation
+                    and see how my teams work contributed to the grander vision.
+                  </p>
+                  <p className="font-weight-medium lg mt-5">Looking Forward</p>
+                  <p>
+                    With this experience, I'm looking forward to applying what I
+                    learned in future jobs and personal projects!
+                  </p>
+                  <Button as={Link} to="/" variant="light">
+                    Back Home
+                  </Button>
+                </Col>
+              </Row>
+            </Fade>
+          </Container>
+        </Row>
         <Footer />
       </Container>
     </>

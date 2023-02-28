@@ -57,7 +57,7 @@ export const work = [
   },
   {
     // Hack Western --> Tenfax Dashboard
-    url: "/w/hackwestern6",
+    url: "/w/tenfax",
     role: "Solo Engineer",
     name: "Tenfax Dashboard",
     locked: false,
@@ -65,13 +65,13 @@ export const work = [
     image: "https://d1ap993fctyiv.cloudfront.net/Tenfax.png",
     description:
       "Bridging the gap between virtual and physical hackathon design for over 500 students across Canada",
-    color: "30, 9, 59",
+    color: "254,245,231",
 
     span: 1,
   },
   {
     // Western Founders Network --> Movie Reviewer
-   url: "/w/wfn",
+   url: "/w/mreviewer",
    role: "Solo Engineer",
    name: "Movie Reviewer",
    locked: false,
@@ -79,13 +79,13 @@ export const work = [
    image: "https://d1ap993fctyiv.cloudfront.net/MovieReviewer.png",
    description:
      "Developing the visual brand of the largest Business & Technology club on campus over two years",
-   color: "0, 0, 0",
+   color: "97,93,90",
 
    span: 1,
   },
  {
     //Western Housing --> MP3 Converter
-   url: "/w/fourtips",
+   url: "/w/vmp3",
    role: "Solo Engineer",
    name: "Video to MP3 Converter",
    locked: false,
@@ -93,7 +93,7 @@ export const work = [
    image: "https://d1ap993fctyiv.cloudfront.net/VideoMP3Converter.png",
    description:
      "My work as the youngest-ever hire on the university's marketing team",
-   color: "79, 38, 131",
+   color: "97,93,90",
 
    span: 1,
   },
@@ -107,7 +107,7 @@ export const work = [
    image: "https://d1ap993fctyiv.cloudfront.net/Four-TIPS.png",
    description:
      "My work as the youngest-ever hire on the university's marketing team",
-   color: "79, 38, 131",
+   color: "97,93,90",
 
    span: 1,
   },

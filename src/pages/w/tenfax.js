@@ -21,8 +21,8 @@ import Badge from "react-bootstrap/Badge"
 import ArticleHeader from "../../components/articles/ArticleHeader"
 import ComingSoon from "../../components/articles/ComingSoon"
 
-const HackWestern = () => {
-  const highlightColor = "#999db6"
+const Tenfax = () => {
+  const highlightColor = "#000000"
 
   // Parallax Variables
   const { scrollY } = useViewportScroll()
@@ -66,13 +66,7 @@ const HackWestern = () => {
         >
           <Image
             fluid
-            src="https://doixzan7hf4ti.cloudfront.net/hw6/sponsorshippackage.jpg"
-          />
-
-          <motion.img
-            style={{ y: hwy1 }}
-            className="hw-alien-top"
-            src="https://doixzan7hf4ti.cloudfront.net/hw6/hwalien.png"
+            src="https://d1ap993fctyiv.cloudfront.net/Tenfax.png"
           />
         </ArticleHeader>
 
@@ -121,148 +115,26 @@ const HackWestern = () => {
           </p>
         </Roles>
 
-        <Row className="mt-5">
-          <Container>
-            <Fade bottom duration={666} distance="50px" delay={333}>
-              <Row>
-                <Col className="text-center ">
-                  <h2 className="font-weight-bold mb-3">See The Recap Video</h2>
-                  <ResponsiveEmbed
-                    aspectRatio="16by9"
-                    className="shadow"
-                    style={{ borderRadius: "8px" }}
-                  >
-                    <iframe
-                      width="560"
-                      height="315"
-                      src="https://www.youtube-nocookie.com/embed/P5_DZDgfH1c"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                      title="recap video"
-                    ></iframe>
-                  </ResponsiveEmbed>
-                </Col>
-              </Row>
-            </Fade>
-          </Container>
-        </Row>
-
-        <Row className="mt-5 ">
+        <Row className="mt-5 pb-4">
           <Container>
             <Fade bottom duration={666} distance="50px">
               <Row className="mt-5">
                 <Col md={4}>
-                  <h2 className="font-weight-bold">Problem Statement</h2>
-                </Col>
-                <Col md={8}>
-                  <p className="font-weight-medium lg">
-                    How might we create a Hackathon brand that lives in a
-                    digital and physical environment?
-                  </p>
-                  <p>
-                    This was the question that our small team of 4 asked
-                    ourselves during our very first meeting. Our end goal was to
-                    create a cohesive narrative that the user would be able to
-                    follow from the signup process right up until the event day.
-                  </p>
-                  <p>
-                    I also wanted to bring my personal experience with motion
-                    design and videography to build a new option for branding.
-                  </p>
-                </Col>
-              </Row>
-            </Fade>
-
-            <Fade bottom duration={666} distance="50px">
-              <Row className="mt-5 text-center">
-                <Col className="picture-highlight hw">
-                  <p>Our planning board after our 2nd brainstorming session</p>
-                  <Image
-                    src="https://doixzan7hf4ti.cloudfront.net/hw6/hwplanningboard.jpg"
-                    fluid
-                    alt="Whiteboard with planning notes"
-                    className="shadow"
-                  />
-                </Col>
-              </Row>
-            </Fade>
-
-            <Fade bottom duration={666} distance="50px">
-              <Row className="mt-5 ">
-                <Col md={4}>
-                  <h2 className="font-weight-bold">Planning</h2>
+                  <h2 className="font-weight-bold solution-color">
+                    The Solution
+                  </h2>
                 </Col>
                 <Col md={8}>
                   <p>
-                    With the creation of moodboards, our team was able to start
-                    painting the picture of what we envisioned the brand to look
-                    like.
-                  </p>
-                  <p>
-                    Our group consensus was that the hackathon would be geared
-                    towards hackers of all skill levels while also trying to
-                    bring some representation to three different streams that we
-                    wanted to implement: Business, Technology, and Design
+                    I was able to successfully develope a data pipeline to extract up to<strong> 40,000 records
+                    of currency rate data and transform it into 30 columns </strong>with accurate formula application
+                     using Python-Pandas. In addition I was able to create a  script that saw a time savings 
+                     on documenting workflow automation. I leveraged on <strong>Object-Oriented programming principles</strong>
+                    to ensure the script applied to different team templates. 
                   </p>
                 </Col>
               </Row>
             </Fade>
-
-            <Fade bottom duration={666} distance="50px">
-              <Row className="mt-5 text-center">
-                <Col className="picture-highlight hw">
-                  <p>A moodboard that was presented</p>
-                  <Image
-                    src="https://doixzan7hf4ti.cloudfront.net/hw6/Moodboards.png"
-                    fluid
-                    alt="Whiteboard with planning notes"
-                    className="shadow"
-                  />
-                </Col>
-              </Row>
-            </Fade>
-          </Container>
-        </Row>
-
-        <Row className="pt-5 pb-5 mt-5">
-          <Container>
-            <Row className="">
-              <Col md={4}>
-                <h2 className="font-weight-bold solution-color">
-                  The Solution
-                </h2>
-              </Col>
-              <Col md={8}>
-                <Fade bottom duration={666} distance="50px">
-                  <p className="font-weight-medium lg">Build Your Moonshot</p>
-                  <p>
-                    Using outer-space as the medium, we decided on pursuing a
-                    story-centred approach centred around the idea of being able
-                    to create your dreams, or Moonshots.
-                  </p>
-                  <p>
-                    For the look, we opted to incorporate the purple colors
-                    found in Western University's branding and infuse it with
-                    orange hues to create a calm, yet mysterious feeling.
-                  </p>
-                  <p>
-                    Within the venue, we hand-crafted several cutouts of our
-                    illustrations to hang from the roof. We also purchased glow
-                    in the dark space paraphernalia to leave around the
-                    building. The item I was most proud of, however, was the
-                    usage of RGB strips strategically placed underneath
-                    staircases and archways to cast various colors throughout
-                    the space to set the mood.
-                  </p>
-                  <p>
-                    On the video branding side, I designed a video system that
-                    incorporates depth through the strategic usage of layer
-                    blurring depending on the "height" of the virtual object.
-                  </p>
-                </Fade>
-              </Col>
-            </Row>
           </Container>
         </Row>
 
@@ -350,4 +222,4 @@ const HackWestern = () => {
   )
 }
 
-export default HackWestern
+export default Tenfax
