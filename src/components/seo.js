@@ -51,7 +51,7 @@ function SEO({ description, lang, meta, title, type, url, image, keywords }) {
         { name: "keywords", content: metaKeywords },
         { name: "og:url", content: `https://carltonosinde.ca/${metaURL}` },
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:site", content: "https://carltonosinde.ca" },
+        { name: "twitter:site", content: "https://carltonosinde.com" },
         { name: "twitter:creator", content: "@OsindeCarlton" },
         { name: "twitter:author", content: "@OsindeCarlton" },
         { name: "twitter:title", content: metaTitle },
@@ -84,7 +84,7 @@ function SEO({ description, lang, meta, title, type, url, image, keywords }) {
         {
           property: "og:image:alt",
           content:
-            "A digital snapshat what makes me unique: Hello! I'm Carlton Osinde, A Solutions Engineer with Project Management experience working to build a better tommorrow.",
+            "A digital snapshat what makes me unique: Hello! My name is Carlton Osinde and I am a Software Engineer who has 3 years of work experience in different fields. I currntly work as a Solutions Engineer and have real world experience as a Project Management. My ambition is to build a tommorrow while leveraging technology",
         },
       ].concat(meta)}
     >

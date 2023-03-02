@@ -111,7 +111,7 @@ const IndexPage = () => {
                           variants={UpReveal}
                           className="font-weight-bold mb-3 xl"
                         >
-                          Welcome to my profile <Emoji symbol="😎" />
+                          Welcome to my portfolio <Emoji symbol="😎" />
                         </motion.h1>
                       </div>
                       <div style={{ overflow: "hidden" }}>

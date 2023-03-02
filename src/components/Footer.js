@@ -169,7 +169,7 @@ const Footer = () => {
           </Col>
           <Col className="pb-3" md={3} sm={12}>
             <h3 className="rg font-weight-bold footer-links">
-              How I Made This Site
+              Technology Behind The Site
             </h3>
             <TechnologyList />
           </Col>

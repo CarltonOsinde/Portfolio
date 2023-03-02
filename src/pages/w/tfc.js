@@ -38,7 +38,7 @@ const TheFocusCompany = () => {
           subtitle={[
             {
               text:
-                "A re-imagined experience for users to connect on Airbnb during the pandemic",
+                "In a world of crazy-busy, we help you see the work that matters.",
               color: "rgb(250, 250, 250)",
             },
           ]}
@@ -55,7 +55,7 @@ const TheFocusCompany = () => {
         >
           <Image
             fluid
-            src="https://d1ap993fctyiv.cloudfront.net/tfclogo_2_30.png"
+            src="https://d1ap993fctyiv.cloudfront.net/tfc_coverphoto.png"
             className="p-5"
           />
         </ArticleHeader>
@@ -84,8 +84,6 @@ const TheFocusCompany = () => {
 
 
         </Roles>
-
-        <ComingSoon />
         <Footer />
       </Container>
     </>

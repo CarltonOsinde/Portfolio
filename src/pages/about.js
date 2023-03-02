@@ -119,7 +119,7 @@ const About = () => {
                           textDecoration: "underline",
                         }}
                         className="font-weight-medium"
-                        href="https://hackwestern.com/#/"
+                        href="https://focuscompany.ca"
                         rel="noopener"
                         target="_blank"
                       >
