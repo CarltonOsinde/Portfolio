@@ -72,8 +72,8 @@ const Tenfax = () => {
 
         <Roles
           roles="Founder, Solo Developer"
-          tools="Figma
-            React Native,Express.js, Node.js, MongoDB"
+          tools="
+            React, Express.js, Node.js, MongoDB"
           timeline="May 2020 - December 2020"
           type="Project"
         >
