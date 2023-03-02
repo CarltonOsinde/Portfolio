@@ -112,7 +112,7 @@ const About = () => {
                       >
                         Chaqu.io
                       </a>
-                      , and work as a Solutions Engineer at{" "}
+                      , and working full-time as a Solutions Engineer at{" "}
                       <a
                         style={{
                           color: "#005DAA",
@@ -125,7 +125,7 @@ const About = () => {
                       >
                         The Focus Company
                       </a>
-                      . Previously I was a Data Engineer Intern at{" "}
+                      . Prior to my full-time role, I interned as an Engineer Intern at{" "}
                       <a
                         style={{
                           color: "#005DAA",
@@ -206,10 +206,10 @@ const About = () => {
                         </span>
                         <p>
                           My name is <span itemProp="name">Carlton Osinde</span>{" "}
-                          a recent graduate, I have a Bachelors Degree with a focus in Computer Science from
+                          a recent graduate, I have a Bachelors Degree with a focus in Computer Science concepts from
                           {" "}
                           <span
-                            style={{ color: "#4F2683" }}
+                            style={{ color: "#b60809" }}
                             className="font-weight-medium"
                             itemProp="affiliation"
                           >
@@ -224,13 +224,13 @@ const About = () => {
                     <Emoji symbol="💭" />
                   </span>
                   <p>
-                    My current ambition is to leverage my experiences ranging across many different
-                    fields and break into Big Tech as a  {" "}
+                    My ambition is to leverage my work and project experiences ranging between the Finance
+                    ,Sports and Consulting sector to break into Big Tech as a  {" "}
                     <span className="font-weight-bold">
                       Back-End Engineer!
                     </span>{" "}
-                    Feel free to reach out and get connected, I love to meet new
-                    people!
+                    My contact details are below, please free to reach out and let's get connected, I love new 
+                    interactions!
                   </p>
                 </Col>
               </Row>
