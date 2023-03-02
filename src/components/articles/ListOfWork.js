@@ -64,7 +64,7 @@ export const work = [
     unfinished: false,
     image: "https://d1ap993fctyiv.cloudfront.net/Tenfax.png",
     description:
-      "Bridging the gap between virtual and physical hackathon design for over 500 students across Canada",
+      "A React built dashboard that connects to a MongoDB database to process data and insights.",
     color: "254,245,231",
 
     span: 1,
@@ -78,7 +78,7 @@ export const work = [
    unfinished: false,
    image: "https://d1ap993fctyiv.cloudfront.net/MovieReviewer.png",
    description:
-     "Developing the visual brand of the largest Business & Technology club on campus over two years",
+     "This is a React app that loads movie suggestions from a MongoDB database & uses Java Spring Boot backend to handle requests.",
    color: "97,93,90",
 
    span: 1,
@@ -92,7 +92,7 @@ export const work = [
    unfinished: false,
    image: "https://d1ap993fctyiv.cloudfront.net/VideoMP3Converter.png",
    description:
-     "My work as the youngest-ever hire on the university's marketing team",
+     "Video to MP3 converter that is built on a Microservice architecture and Docker image deployed on Kubernetes cluster",
    color: "97,93,90",
 
    span: 1,
@@ -106,7 +106,7 @@ export const work = [
    unfinished: false,
    image: "https://d1ap993fctyiv.cloudfront.net/Four-TIPS.png",
    description:
-     "My work as the youngest-ever hire on the university's marketing team",
+     "Making life simplier for Type 4 Black hair indivdiuals",
    color: "97,93,90",
 
    span: 1,

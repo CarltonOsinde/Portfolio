@@ -28,7 +28,7 @@ const VideoMp3 = () => {
     <>
       <SEO
         title="Carlton Osinde - Django Video - MP3 Web App"
-        description="Leading the Design direction of Western University's largest business and technology club"
+        description="Video to MP3 converter that is built on a Microservice arch and Docker image deployed on Kubernetes cluster"
         type="article"
         url="/w/wfn"
       />
@@ -44,7 +44,7 @@ const VideoMp3 = () => {
           subtitle={[
             {
               text:
-                "Video to MP3 converter that is built on a Microservice arch and Docker image deployed on Kubernetes cluster",
+                "Video to MP3 converter that is built on a Microservice architecture and Docker image deployed on Kubernetes cluster",
               color: "rgb(240, 240, 240)",
             },
           ]}

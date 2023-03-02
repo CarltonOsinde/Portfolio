@@ -28,9 +28,9 @@ const MovieReviewer = () => {
     <>
       <SEO
         title="Carlton Osinde - Movie Reviewer Project"
-        description="Leading the Design direction of Western University's largest business and technology club"
+        description="A web app similar to a IMDB that loads movie suggestions from a database. "
         type="article"
-        url="/w/wfn"
+        url="/w/mreviewer"
       />
       <Navbar />
       <Container fluid style={{ zIndex: "0" }}>

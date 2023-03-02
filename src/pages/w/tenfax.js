@@ -32,8 +32,7 @@ const Tenfax = () => {
     <>
       <SEO
         title="Carlton Osinde - Tenfax Dashboard, Solo Engineer"
-        description="Re-inventing the way we network. A new way of tracking 
-                    your connections."
+        description="Connecting sales data to a dashboard."
         type="article"
       />
       <Navbar />
@@ -58,7 +57,7 @@ const Tenfax = () => {
           action={[
             {
               text: "View Project",
-              url: "https://nettcard.com",
+              url: "https://github.com/CarltonOsinde/Tenfax-Dashboard",
               variant: "light",
             },
           ]}
