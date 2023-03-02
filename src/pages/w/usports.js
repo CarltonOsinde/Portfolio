@@ -75,13 +75,13 @@ const USPORTS = () => {
           type="Intern"
         >
           <p>
-          Over 4 months I worked with the team on the <strong>end to end 
+          I worked with the Development team on the <strong>end to end 
           development of an error-tracking feature</strong> for the Score Board. 
           I had the pleasure of spliting my time with the Governance team to assist 
           in <strong>partnership talks with Adidas</strong> and learned what goes into market research
           on successful NCAA National Championship trends that could be implemented into the 
           <strong> 2019 National Championship season.</strong> In addition I <strong>collaborated with senior engineers </strong> 
-          to understand best practices for writing production code and test cases.
+          to understand best practices for <strong>writing production code and test cases</strong>.
           </p>
 
                 <Row className = "mt-5">
@@ -106,8 +106,8 @@ const USPORTS = () => {
                 </p>
               </Col>
               <Col>
-                <p className="font-weight-bold rg text-close">Active Users</p>
-                <p className="text-close sm">5000+</p>
+                <p className="font-weight-bold rg text-close">Increase of Users</p>
+                <p className="text-close sm">5000+ Users Nation wide</p>
               </Col>
               <Col>
                 <p className="font-weight-bold rg text-close">Accuracy</p>
@@ -156,7 +156,7 @@ const USPORTS = () => {
             <Fade bottom duration={666} distance="50px">
               <Row className="mt-5">
                 <Col md={4}>
-                  <h2 className="font-weight-bold solution-color">Technology</h2>
+                  <h2 className="font-weight-bold solution-color">The Problem</h2>
                 </Col>
                 <Col md={8}>
                   <p>

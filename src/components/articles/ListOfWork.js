@@ -10,7 +10,7 @@ export const work = [
     image: "https://d1ap993fctyiv.cloudfront.net/tfclogo_2_30.png",
     description:
       "Leveraging modern day technology to solve organizations technical and cultural challenges ",
-    color: "255, 165, 0",
+    color: "255, 165, 0", 
 
     span: 1,
   },

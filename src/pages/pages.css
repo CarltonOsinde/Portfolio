@@ -35,17 +35,18 @@
   background: rgb(228, 74, 74);
   background: -moz-linear-gradient(
     47deg,
-    rgb(228, 74, 7) 0%,
+    rgb(242, 125, 75) 0%,
     rgba(227, 230, 232) 100%
+    
   );
   background: -webkit-linear-gradient(
     47deg,
-    rgb(228, 74, 7) 0%,
+    rgb(242, 125, 75) 0%,
     rgba(227, 230, 232) 100%
   );
   background: linear-gradient(
     47deg,
-    rgb(228, 74, 7) 0%,
+    rgb(242, 125, 75) 0%,
     rgb(227, 230, 232) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dbcdff",endColorstr="#96d7ff",GradientType=1);
