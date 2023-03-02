@@ -1,7 +1,7 @@
 export const work = [
   // FIRST 4 ENTRIES ARE AUTOMATICALLY DISPLAYED AS SELECTED WORK
   {
-    // Airbnb --> The Focus Company
+    // The Focus Company
     url: "/w/tfc",
     role: "Solutions Engineer",
     name: "The Focus Company",
@@ -15,7 +15,7 @@ export const work = [
     span: 1,
   },
   {
-    // KPMG --> TD Securities
+    // TD Securities
     url: "/w/tdsc",
     role: "Engineer Intern",
     name: "TD ",
@@ -29,7 +29,7 @@ export const work = [
     span: 1,
   },
   { 
-    // CaseCom --> Chaqu.io
+    // Chaqu.io
     url: "/w/chaqu",
     role: "Software Engineer",
     name: "Chaqu.io",
@@ -42,7 +42,7 @@ export const work = [
     span: 1,
   },
   {
-    // Hack Western 7 --> U-SPORTS
+    //  U-SPORTS
     url: "/w/usports",
     role: "Data Engineer Intern",
     name: "U-SPORTS",
@@ -56,7 +56,7 @@ export const work = [
     span: 1,
   },
   {
-    // Hack Western --> Tenfax Dashboard
+    // Tenfax Dashboard
     url: "/w/tenfax",
     role: "Solo Engineer",
     name: "Tenfax Dashboard",
@@ -70,7 +70,7 @@ export const work = [
     span: 1,
   },
   {
-    // Western Founders Network --> Movie Reviewer
+    // Movie Reviewer
    url: "/w/mreviewer",
    role: "Solo Engineer",
    name: "Movie Reviewer",
@@ -84,7 +84,7 @@ export const work = [
    span: 1,
   },
  {
-    //Western Housing --> MP3 Converter
+    // MP3 Converter
    url: "/w/vmp3",
    role: "Solo Engineer",
    name: "Video to MP3 Converter",
@@ -98,7 +98,7 @@ export const work = [
    span: 1,
   },
   {
-    //Western Housing --> Four-Tips
+    // Four-Tips
    url: "/w/fourtips",
    role: "Back-End Engineer",
    name: "Four-Tips",
@@ -111,18 +111,4 @@ export const work = [
 
    span: 1,
   },
-  // {
-  //   // RBC
-  //   url: "/w/rbc-2020",
-  //   role: "Technical Systems Analyst Intern",
-  //   name: "Royal Bank of Canada",
-  //   locked: true,
-  //   unfinished: false,
-  //   image: "https://doixzan7hf4ti.cloudfront.net/logos/rbclogo.jpg",
-  //   description:
-  //     "Modernizing critical infrastructure for Canada's largest bank",
-  //   color: "0, 93, 170",
-
-  //   span: 1,
-  // },
 ]

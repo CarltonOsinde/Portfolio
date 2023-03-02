@@ -44,7 +44,7 @@ const MovieReviewer = () => {
           subtitle={[
             {
               text:
-                "[Add a description]",
+                "A web app similar to a IMDB that loads movie suggestions from a database. ",
               color: "rgb(240, 240, 240)",
             },
           ]}
@@ -57,7 +57,7 @@ const MovieReviewer = () => {
           action={[
             {
               text: "View Project",
-              url: "https://www.foundersnetwork.ca/",
+              url: "https://github.com/CarltonOsinde/Movie-Reviewer",
               variant: "light",
             },
           ]}
@@ -75,13 +75,14 @@ const MovieReviewer = () => {
         <Roles
           roles="Solo Engineer"
           team="Engineering"
-          tools="Adobe Creative Suite, Slack, Figma"
+          tools="Java (Spring Boot), Javascript(React.js), MongoDB, Git, VSCode"
           timeline="Toronto, CA"
           type="Personal Project"
         >
           <p>
-            I had a lot of fun with this project...
+            This is a React app that loads movie suggestions from a MongoDB database & uses Java Spring Boot backend to handle requests. 
           </p>
+          
         </Roles>
         
         <Row className="mt-5 pb-4">
@@ -90,20 +91,38 @@ const MovieReviewer = () => {
               <Row className="mt-5">
                 <Col md={4}>
                   <h2 className="font-weight-bold solution-color">
-                    The Solution
+                    How It Works
                   </h2>
                 </Col>
                 <Col md={8}>
                   <p>
-                    I was able to successfully develope a data pipeline to extract up to<strong> 40,000 records
-                    of currency rate data and transform it into 30 columns </strong>with accurate formula application
-                     using Python-Pandas. In addition I was able to create a  script that saw a time savings 
-                     on documenting workflow automation. I leveraged on <strong>Object-Oriented programming principles</strong>
-                    to ensure the script applied to different team templates. 
+                     In this project, I was able to dive deeper into the Java's back-end framework <strong>Spring Boot</strong> and learn how to connect a Java backend to a <strong>React Front-end </strong>. Adding a <strong>NoSQL</strong> database such as <strong>MongoDB</strong> to the workflow really allowed me to imporve my <strong>database design, optimization and</strong> learn how all these systems can work together to create a fully syncronized system.
                   </p>
-                    <Button as={Link} to="/" variant="dark">
+
+                </Col>
+              </Row>
+            </Fade>
+          </Container>
+        </Row>
+
+        <Row className="conclusion-section pt-5 pb-4">
+          <Container>
+            <Fade bottom duration={666} distance="50px">
+              <Row className="">
+                <Col md={4}>
+                  <h2 className="font-weight-bold">Conclusion</h2>
+                </Col>
+                <Col md={8}>
+
+                  <p>
+                    This really was really fun and really helped me piece together how to connect a backend that isn't Express to a React Front-End! 
+                    
+                    I'm looking forward to playing around with Springboot to build more projects that utilize Object Oriented principles!
+                  </p>
+                  <Button as={Link} to="/" variant="light">
                     Back Home
                   </Button>
+
                 </Col>
               </Row>
             </Fade>

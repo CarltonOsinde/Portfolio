@@ -44,7 +44,7 @@ const VideoMp3 = () => {
           subtitle={[
             {
               text:
-                "[Add a description]",
+                "Video to MP3 converter that is built on a Microservice arch and Docker image deployed on Kubernetes cluster",
               color: "rgb(240, 240, 240)",
             },
           ]}
@@ -75,14 +75,40 @@ const VideoMp3 = () => {
         <Roles
           roles="Solo Engineer"
           team="Engineering"
-          tools="Adobe Creative Suite, Slack, Figma"
+          tools="Python, MongoDB, Docker, K8, 
+          MySQL, Rabbit MQ"
           timeline="Toronto, CA"
           type="Personal Project"
         >
           <p>
-            I had a lot of fun with this project...
+            I learned how to created a Microservice Architecture that took a Video input and worked to convert
+            the video into an MP3.
+
+            It is held in <strong>Docker Image </strong>and deployed on a <strong>Kubernetes cluster</strong>
           </p>
         </Roles>
+
+        <Row className="mt-5 pb-4">
+          <Container>
+            <Fade bottom duration={666} distance="50px">
+              <Row className="mt-5">
+                <Col md={4}>
+                  <h2 className="font-weight-bold solution-color">
+                    How It Works
+                  </h2>
+                </Col>
+                <Col md={8}>
+                  <p>
+                   The main programming langugage used for this project is Python. There are three seperate services, <strong>Authentication Service, Video to MP3 Service, & the Notification service.</strong> Implemented is a RabbitMQ queue to let each service communicated and execute with each other in a chronological order. All the data is stored and fetched from a <strong>MySQL and MongoDB </strong>database.
+                  </p>
+                  <Button as={Link} to="/" variant="dark">
+                    View Project
+                  </Button>
+                </Col>
+              </Row>
+            </Fade>
+          </Container>
+        </Row>
         
         <Row className="mt-5 pb-4">
           <Container>
@@ -90,20 +116,71 @@ const VideoMp3 = () => {
               <Row className="mt-5">
                 <Col md={4}>
                   <h2 className="font-weight-bold solution-color">
-                    The Solution
+                    System Design
                   </h2>
                 </Col>
                 <Col md={8}>
+                  {/* <h5>First Step:</h5>
                   <p>
-                    I was able to successfully develope a data pipeline to extract up to<strong> 40,000 records
-                    of currency rate data and transform it into 30 columns </strong>with accurate formula application
-                     using Python-Pandas. In addition I was able to create a  script that saw a time savings 
-                     on documenting workflow automation. I leveraged on <strong>Object-Oriented programming principles</strong>
-                    to ensure the script applied to different team templates. 
+                    Client → API Gateway → Storage DB(Mongo DB)<br />
+                      * User uploads a video to be converted to MP3<br />
+                      * The request hits the API Gateway<br />
+                      * Gateway will upload the video to MongoDB 
                   </p>
-                    <Button as={Link} to="/" variant="dark">
+                  <h5>Second Step:</h5>
+                  <p>
+                    API Gateway →Queue → Video Converter to MP3 Service (K8 Cluster) <br />
+                      * After storing the video the gateway will put a queue into Rabbit MQ<br />
+                      * The Video Converter Service reads from the Queue and finds the video ID from the Storage Database and performs the conversion
+                  </p>
+                  <h5>Third Step:</h5>
+                  <p>
+                    Video Converter Service  → Storage DB (MP3 file) →  New message on the Rabbit MQ<br />
+                      * After the converter has performed the conversion it stores the MP3 file in the storage DB<br />
+                      * Puts a new message in the queue for the notification service<br />
+                  </p>
+
+                  <h5>Fourth Step:</h5>
+                  <p>
+                    Notification Service → Client → Authentication Service<br />
+                      *The notification service reads the messages and sends an email notification to the client<br />
+                      * The client uses a unique ID acquired from the email notification plus their JWT to make a request to the API Gateway to pull the MP3<br />
+                      * API Gateway retrieves the file from the Storage DB and returns the MP3 file to the user<br />
+
+                  </p> */}
+              <Fade bottom duration={666} distance="70px" delay={300}>
+              <Image
+                src="https://d1ap993fctyiv.cloudfront.net/videomp3_sysDesign.JPG"
+                fluid
+                alt="A view of the final design choices made by the team"
+              />
+            </Fade>
+          </Col>
+        </Row>
+
+
+      </Fade>
+    </Container>
+  </Row>
+
+          <Row className="conclusion-section pt-5 pb-4">
+          <Container>
+            <Fade bottom duration={666} distance="50px">
+              <Row className="">
+                <Col md={4}>
+                  <h2 className="font-weight-bold">Conclusion</h2>
+                </Col>
+                <Col md={8}>
+
+                  <p>
+                    This really opened my eyes to the Microservices Architecture world and why companies today choose to use this type of Architecture when they are looking to scale their system! 
+                    
+                    I'm looking forward to expanding on softwares such as Rabbit MQ, Docker and K8!
+                  </p>
+                  <Button as={Link} to="/" variant="light">
                     Back Home
                   </Button>
+
                 </Col>
               </Row>
             </Fade>
