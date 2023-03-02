@@ -32,7 +32,7 @@ const FourTips = () => {
     <>
       <SEO
         title="Carlton Osinde - Four-Tips, Back-End Engineer"
-        description="Making life simplier for Black Women"
+        description="Making life simplier for Type 4 indivdiuals"
         type="article"
       />
       <Navbar />
@@ -47,7 +47,7 @@ const FourTips = () => {
           subtitle={[
             {
               text:
-                "We exist to support Black women. Black hair. Black Heritage.",
+                "We exist to support Black Heritage. Black hair. Black culure.",
               color: "rgb(240, 240, 240)",
             },
           ]}

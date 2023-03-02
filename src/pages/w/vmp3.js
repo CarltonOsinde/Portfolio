@@ -57,7 +57,7 @@ const VideoMp3 = () => {
           action={[
             {
               text: "View Project",
-              url: "https://www.foundersnetwork.ca/",
+              url: "https://github.com/CarltonOsinde/Video-MP3-Converter",
               variant: "light",
             },
           ]}
