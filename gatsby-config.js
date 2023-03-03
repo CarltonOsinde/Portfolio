@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Carlton Osinde's Portfolio`,
     description: `Software Engineer with a passion for technology. Take a look through my past experiences and projects that I'm most proud of!`,
-    author: `@justinnzhang`,
+    author: `@CarltonOsinde`,
     siteUrl: `https://carltonosinde.ca`,
     keywords: `Carlton Osinde, engineer, back-end engineer, software engineer, computer science, founder`,
     image: `https://d1ap993fctyiv.cloudfront.net/dp.jpg`,
