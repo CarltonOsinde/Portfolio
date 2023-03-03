@@ -5,7 +5,7 @@ module.exports = {
     author: `@justinnzhang`,
     siteUrl: `https://carltonosinde.ca`,
     keywords: `Carlton Osinde, engineer, back-end engineer, software engineer, computer science, founder`,
-    image: `https://justinzhang.ca/img/site-banner.png`,
+    image: `https://d1ap993fctyiv.cloudfront.net/dp.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

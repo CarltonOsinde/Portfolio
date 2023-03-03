@@ -16,7 +16,7 @@ import Button from "react-bootstrap/Button"
 const NotFound = () => {
   return (
     <>
-      <SEO title="Justin Zhang - 404" description="Something went wrong :(" type="website"/>
+      <SEO title="Carlton Osinde - 404" description="Something went wrong :(" type="website"/>
       <Navbar />
       <Container fluid>
         <motion.div
@@ -35,7 +35,7 @@ const NotFound = () => {
               <Row>
                 <Col className="p-5">
                   <h1 className="font-weight-medium">
-                    You went somewhere that doesn't work <Emoji symbol="😢" />
+                    Looks like we don't have that developed yet <Emoji symbol="😢" />
                   </h1>
                   <Button as={Link} to="/">
                     Back Home
