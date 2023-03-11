@@ -58,7 +58,7 @@ export const work = [
   {
     // Tenfax Dashboard
     url: "/w/tenfax",
-    role: "Solo Engineer",
+    role: "MERN App",
     name: "Tenfax Dashboard",
     locked: false,
     unfinished: false,
@@ -72,13 +72,13 @@ export const work = [
   {
     // Movie Reviewer
    url: "/w/mreviewer",
-   role: "Solo Engineer",
+   role: "Full-Stack App",
    name: "Movie Reviewer",
    locked: false,
    unfinished: false,
    image: "https://d1ap993fctyiv.cloudfront.net/MovieReviewer.png",
    description:
-     "This is a React app that loads movie suggestions from a MongoDB database & uses Java Spring Boot backend to handle requests.",
+     "This is a React app that loads movie suggestions from a MongoDB database & uses Java Spring Boot to handle requests.",
    color: "97,93,90",
 
    span: 1,
@@ -86,13 +86,13 @@ export const work = [
  {
     // MP3 Converter
    url: "/w/vmp3",
-   role: "Solo Engineer",
+   role: "Docker/K8 App",
    name: "Video to MP3 Converter",
    locked: false,
    unfinished: false,
    image: "https://d1ap993fctyiv.cloudfront.net/VideoMP3Converter.png",
    description:
-     "Video to MP3 converter that is built on a Microservice architecture and Docker image deployed on Kubernetes cluster",
+     "Built using a Microservice architecture and deployed a Docker image on a local Kubernetes cluster",
    color: "97,93,90",
 
    span: 1,

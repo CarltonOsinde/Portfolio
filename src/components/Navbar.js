@@ -27,7 +27,7 @@ const Landing = () => {
               About
             </Nav.Link>
             <Nav.Link
-              href="https://d1ap993fctyiv.cloudfront.net/CarltonOsinde_Resume.pdf"
+              href="https://d1ap993fctyiv.cloudfront.net/SWE-CarltonOsinde_Resume.pdf"
               target="_blank"
               className="font-weight-medium"
               style={{ color: "black" }}
