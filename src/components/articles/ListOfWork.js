@@ -3,13 +3,13 @@ export const work = [
   {
     // The Focus Company
     url: "/w/tfc",
-    role: "Solutions Engineer",
+    role: "Technical Consultant",
     name: "The Focus Company",
     locked: false,
     unfinished: false,
     image: "https://d1ap993fctyiv.cloudfront.net/tfclogo_2_30.png",
     description:
-      "Leveraging modern day technology to solve organizations technical and cultural challenges ",
+      "Leveraging leading edge software and data to create custom software solutions for organizations",
     color: "255, 165, 0", 
 
     span: 1,
@@ -17,13 +17,13 @@ export const work = [
   {
     // TD Securities
     url: "/w/tdsc",
-    role: "Engineer Intern",
+    role: "Data Engineer",
     name: "TD ",
     locked: false,
     unfinished: false,
     image: "https://d1ap993fctyiv.cloudfront.net/TD_logo.png",
     description:
-      "Building efficient data pipelines for the Capital Markets team",
+      "Built data pipelines and performed ETL on large data sets for the Capital Markets team",
     color: "60, 179, 113",
 
     span: 1,
@@ -36,7 +36,7 @@ export const work = [
     locked: false,
     unfinished: false,
     image: "https://d1ap993fctyiv.cloudfront.net/chaqulogo.png",
-    description: "Redefining your casual dining experience",
+    description: "A SaaS company with the mission to empower restaurants with data insights and analytics",
     color: "0, 0, 0",
 
     span: 1,
@@ -50,7 +50,7 @@ export const work = [
     unfinished: false,
     image: "https://d1ap993fctyiv.cloudfront.net/U_SPORTSlogo.png",
     description:
-      "Deliverying the ultimate experience for end user for the 2019 National Championship",
+      "Developed an error-tracking feature that was instrumental in the 2019 Winter Womens Basketball National Championship",
     color: "181, 19, 25",
 
     span: 1,
@@ -59,12 +59,12 @@ export const work = [
     // Tenfax Dashboard
     url: "/w/tenfax",
     role: "MERN App",
-    name: "Tenfax Dashboard",
+    name: "Sales Data Dashboard",
     locked: false,
     unfinished: false,
     image: "https://d1ap993fctyiv.cloudfront.net/Tenfax.png",
     description:
-      "A React built dashboard that connects to a MongoDB database to process data and insights.",
+      "A React built dashboard that connects to a MongoDB database & uses Express.js to handle to process request for data.",
     color: "254,245,231",
 
     span: 1,
@@ -73,12 +73,12 @@ export const work = [
     // Movie Reviewer
    url: "/w/mreviewer",
    role: "Full-Stack App",
-   name: "Movie Reviewer",
+   name: "IMBDB Replica",
    locked: false,
    unfinished: false,
    image: "https://d1ap993fctyiv.cloudfront.net/MovieReviewer.png",
    description:
-     "This is a React app that loads movie suggestions from a MongoDB database & uses Java Spring Boot to handle requests.",
+     "A full-stack app that uses a React front-end to load movie suggestions from a MongoDB database & uses a Java Spring Boot web-server to handle request.",
    color: "97,93,90",
 
    span: 1,
@@ -92,7 +92,7 @@ export const work = [
    unfinished: false,
    image: "https://d1ap993fctyiv.cloudfront.net/VideoMP3Converter.png",
    description:
-     "Built using a Microservice architecture and deployed a Docker image on a local Kubernetes cluster",
+     "A Video to MP3 Converter App that uses different microservices to upload, convert, notify & deploy. It is packaged in a Docker image & deployed on a local Kubernetes cluster",
    color: "97,93,90",
 
    span: 1,
@@ -100,7 +100,7 @@ export const work = [
   {
     // Four-Tips
    url: "/w/fourtips",
-   role: "Back-End Engineer",
+   role: "Web-App",
    name: "Four-Tips",
    locked: false,
    unfinished: false,

@@ -102,7 +102,7 @@ const USPORTS = () => {
               <Col>
                 <p className="font-weight-bold rg text-close">Runtime Errors</p>
                 <p className="text-close sm">
-                 Reduction <Badge variant="info">-35%</Badge>   
+                 Reduction <Badge variant="info">35%</Badge>   
                 </p>
               </Col>
               <Col>
@@ -112,7 +112,7 @@ const USPORTS = () => {
               <Col>
                 <p className="font-weight-bold rg text-close">Accuracy</p>
                 <p className="text-close sm">
-                  Increased by <Badge variant="success">+40%</Badge>
+                  Noted at <Badge variant="success">60%</Badge>
                 </p>
               </Col>
             </Row>
@@ -130,21 +130,14 @@ const USPORTS = () => {
                 </Col>
                 <Col md={8}>
                   <p className="font-weight-medium lg">
-                    Develop a data pipeline for the Capital Market's team to use when conducting 
-                    Securities analysis. 
+                    Develop a feature that would allow the Data & Insights team to track error's on live score boards in real time. 
                   </p>
+
                   <p>
-                    I had four-months to deliver a fully function data pipeline that would be
-                    realised to production for the Capital Market's team to leverage on for 
-                    analysis of securities.
-                  </p>
-                  <p>
-                    Over the course 4-months I would have the opportuity to solidfy my understanding
-                    of software languages such as Python, Big Data transformation platforms such as 
-                    Alteryx and Python scripting. My goal was to {" "}
+                    Over the course of 4-months I would have the opportuity to collaborate, design, develop and test a feature that 
+                    tracked XML file uploads that held Score Board data from universities. The goal was to {" "}
                     <strong>
-                    Develop a data pipeline that extracts data from mulitple databases and applies
-                    custom formulas to select columns and generates a file for the trade team.
+                    Find a way to not only detect corrupted files but also log the error for us to perform analysis and pattern recognition.
                     </strong>
                   </p>
                 </Col>
@@ -160,9 +153,7 @@ const USPORTS = () => {
                 </Col>
                 <Col md={8}>
                   <p>
-                    During this time I had to implement various solutions using the three technologys
-                    listed below. I had soc much fun gaining a deeper practical understanding of each the
-                    technology's mentioned below 
+                   Everytime a corrupted file was uploaded it would crash the current scoreboard page and cached data wasn't visible to the end-user 
                   </p>
                 </Col>
               </Row>
@@ -181,11 +172,17 @@ const USPORTS = () => {
                 </Col>
                 <Col md={8}>
                   <p>
-                    I was able to successfully develope a data pipeline to extract up to<strong> 40,000 records
-                    of currency rate data and transform it into 30 columns </strong>with accurate formula application
-                     using Python-Pandas. In addition I was able to create a  script that saw a time savings 
-                     on documenting workflow automation. I leveraged on <strong>Object-Oriented programming principles</strong>
-                    to ensure the script applied to different team templates. 
+                    I was able to work alongside senior engineers to develop a feature that run through 5+ years worth of National Championship data 
+                    and extracted and stored into a SQL databases each university's primary key identifier within the XML files. We segregarted each 
+                    university storing their identifier and their variations.
+                    
+                    Thereafter we implemented a <strong>data pipeline that intergrated the identified variations database to the stream of data being uploaded
+                    where I created a script to read the incoming data and a trigger would be whenever a corrupted file was uploaded it would check the 
+                    variation database for a match and replace it with the correct primary key identifier.</strong>
+
+                    This resulted in a reduction of <strong>5% in runtime errors and the script had 60% accuracy.</strong>3
+
+     
                   </p>
                 </Col>
               </Row>
