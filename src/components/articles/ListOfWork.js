@@ -3,7 +3,7 @@ export const work = [
   {
     // The Focus Company
     url: "/w/tfc",
-    role: "Senior Technical Consultant",
+    role: "Technical Project Manager",
     name: "The Focus Company",
     locked: false,
     unfinished: false,
@@ -31,7 +31,7 @@ export const work = [
   { 
     // Chaqu.io
     url: "/w/chaqu",
-    role: "Software Engineer",
+    role: "Full-Stack Software Engineer",
     name: "Chaqu.io",
     locked: false,
     unfinished: false,
@@ -44,7 +44,7 @@ export const work = [
   {
     //  U-SPORTS
     url: "/w/usports",
-    role: "Data Engineer Intern",
+    role: "Data Engineer",
     name: "U-SPORTS",
     locked: false,
     unfinished: false,

@@ -60,9 +60,9 @@ const TheFocusCompany = () => {
         </ArticleHeader>
 
         <Roles
-          roles=" Senior Technical Consultant"
+          roles="Technical Project Manager"
           timeline ="Toronto, CA"
-          tools="Asana, MS Project, UML, AWS, Model-Driven Architecture"
+          tools="Asana, MS Project, UML, AWS, Model-Driven Architecture, Python, Node.js, REST API"
           type="Full-time Work"
         >
           <p>

@@ -34,7 +34,7 @@ const TDSC = () => {
       <Container fluid style={{ zIndex: "0" }}>
         <ArticleHeader
           title={[
-            { text: "Engineer Intern - TD Securities", color: "white" },
+            { text: "Engineer Associate", color: "white" },
           ]}
           subtitle={[
             {
@@ -61,11 +61,11 @@ const TDSC = () => {
         </ArticleHeader>
 
         <Roles
-          roles="Engineer Intern"
+          roles="Data Engineer Intern"
           team="Data Insights and Innovation"
           tools="Python (Pandas), Alteryx "
           timeline="Toronto, CA"
-          type="Full-Time"
+          type="Contract Full-Time"
         >
           <p>
             Over the course of 4 months, I worked with the Data and Insights team to

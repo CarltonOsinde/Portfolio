@@ -72,7 +72,7 @@ const USPORTS = () => {
           team="Web, Data and Analytics"
           tools="Python, FTP, XML, VS Code, Git Hub"
           timeline="Richmond, CA"
-          type="Intern"
+          type="Contract Full-Time"
         >
           <p>
           I worked with the Development team on the <strong>end to end 
