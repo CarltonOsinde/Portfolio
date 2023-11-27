@@ -3,7 +3,7 @@ export const work = [
   {
     // The Focus Company
     url: "/w/tfc",
-    role: "Technical Consultant",
+    role: "Senior Technical Consultant",
     name: "The Focus Company",
     locked: false,
     unfinished: false,

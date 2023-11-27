@@ -112,7 +112,7 @@ const About = () => {
                       >
                         Chaqu.io
                       </a>
-                      , and working full-time as a Solutions Engineer at{" "}
+                      , and working full-time as a Technical Consultant at{" "}
                       <a
                         style={{
                           color: "#005DAA",
@@ -125,7 +125,7 @@ const About = () => {
                       >
                         The Focus Company
                       </a>
-                      . Prior to my full-time role, I interned as an Engineer Intern at{" "}
+                      . Prior to my full-time role, I interned as a Data Engineer Intern at{" "}
                       <a
                         style={{
                           color: "#005DAA",
@@ -206,14 +206,14 @@ const About = () => {
                         </span>
                         <p>
                           My name is <span itemProp="name">Carlton Osinde</span>{" "}
-                          a recent graduate, I have a Bachelors Degree with a focus in Computer Science concepts from
+                          , I have a Bachelors Degree with a focus in Computer Science from
                           {" "}
                           <span
                             style={{ color: "#b60809" }}
                             className="font-weight-medium"
                             itemProp="affiliation"
                           >
-                            York University.
+                          York University.
                           </span>
                         </p>
                       </div>
@@ -224,13 +224,12 @@ const About = () => {
                     <Emoji symbol="💭" />
                   </span>
                   <p>
-                    My ambition is to leverage my work and project experiences ranging between the Finance
-                    ,Sports and Consulting sector to break into Big Tech as a  {" "}
+                    I am passionate about technology, business and most importantly builiding a better tomorrow. I'm a challenge seeker and enjoy working in different
+                    enviroments to expand my skill set as a {" "}
                     <span className="font-weight-bold">
-                      Back-End Engineer!
+                      Software Engineer!
                     </span>{" "}
-                    My contact details are below, please free to reach out and let's get connected, I love new 
-                    interactions!
+                    My contact details are below, please free to reach out and let's get connected!
                   </p>
                 </Col>
               </Row>

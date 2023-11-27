@@ -173,15 +173,12 @@ const USPORTS = () => {
                 <Col md={8}>
                   <p>
                     I was able to work alongside senior engineers to develop a feature that run through 5+ years worth of National Championship data 
-                    and extracted and stored into a SQL databases each university's primary key identifier within the XML files. We segregarted each 
+                    and extracted and stored into a <strong>SQL databases each university's primary key identifier within the XML files.</strong> We segregarted each 
                     university storing their identifier and their variations.
                     
-                    Thereafter we implemented a <strong>data pipeline that intergrated the identified variations database to the stream of data being uploaded
-                    where I created a script to read the incoming data and a trigger would be whenever a corrupted file was uploaded it would check the 
-                    variation database for a match and replace it with the correct primary key identifier.</strong>
-
-                    This resulted in a reduction of <strong>5% in runtime errors and the script had 60% accuracy.</strong>3
-
+                    Thereafter we implemented a data pipeline that intergrated the identified variations database to the stream of data being uploaded
+                    where<strong> I created a script to read the incoming data and trigger a warning whenever a corrupted file was uploaded </strong>. It would then check the 
+                    variation database for a match and replace it with the correct primary key identifier.
      
                   </p>
                 </Col>

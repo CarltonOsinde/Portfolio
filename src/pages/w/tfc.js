@@ -60,25 +60,40 @@ const TheFocusCompany = () => {
         </ArticleHeader>
 
         <Roles
-          roles="Technical Consultant"
+          roles=" Senior Technical Consultant"
           timeline ="Toronto, CA"
           tools="Asana, MS Project, UML, AWS, Model-Driven Architecture"
           type="Full-time Work"
         >
           <p>
             I've had the pleasure of working at The Focus Company for close to 2 years now.
-            During these 2 years, I've working on a number of exciting projects that catapulted 
-            my technical and consulting skills. Below are a few of accomplishments to date.
+            During these 2 years, I've working on a number of exciting projects that sharpened 
+            my technical and project management skills. Below are a few of accomplishments to date.
           </p>
 
-          <h6>Current Role: Technical Consultant</h6>
+          <h6>Current Role: Technical Project Manager</h6>
             <p>
-              Developed a new Software Architecture map to cut down technical debt by reducing SAAS resources, optimizing the customer journey process, and leveraging on more streamlined data. $162,000 savings per year was noted in SAAS resources.
+             Executed a comprehensive project plan for a $3 Million federal government project called "Women First," which resulted in on-schedule completion of all five phases and meeting strategic targets.
             </p>
 
-          <h6>Previous Role: Associate Project Manager & Data Analyst</h6>
+            <p>
+             Designed, developed, and implemented custom algorithms and forms, successfully converting various data types into binary format, ensuring full compliance with government database schemas and enhancing system compatibility.
+            </p>
+
+            <p> 
+             Co-implemented stringent financial controls and review mechanisms by streamlining expense data allowing for a thorough review of curtailed project expenses. This resulted in less variance disruption and reduced overall costs by 15%
+            </p>
+
+            <p>
+             Devised and enforced a risk management protocol, mitigating significant disruptions and ensuring the project remained on schedule and within budget while adopting project management methodologies specifically for the project's challenges, increasing adaptability and stakeholder satisfaction.
+            </p>
+
+          <h6>Previous Role: Associate Project Manager</h6>
             <p>
               Created team dashboards that visualized ongoing projects, tasks, task assignees, workload and timelines. This resulted in visibility on backlogged tasks, and streamlined project processes and has resulted in more data-driven decisions by team leads.
+            </p>
+            <p>
+              Optimizing the payment gateway of a Node.js back-end serving 1K daily visitors. Leveraged the Shopify API to seamlessly integrate with the existing LMS via REST, effectively logging transactional data. Estimated annual overhead cost savings of $162K, enhancing operational efficiency and profitability.
             </p>
 
 
